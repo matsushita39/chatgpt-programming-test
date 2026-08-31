@@ -39,3 +39,9 @@
 - テスト用ファイルを作る
 - Pull Requestを作る
 - GitHub Actionsで自動テストを動かす
+
+## 開発環境メモ
+
+このリポジトリは、複数のChatGPT環境から参照・更新される可能性があります。
+
+作業するChatGPTは、まずREADME、docs、branch、Pull Request、commit履歴を確認してから作業を始めてください。
