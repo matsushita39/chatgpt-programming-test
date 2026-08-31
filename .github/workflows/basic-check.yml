@@ -1,0 +1,20 @@
+name: Basic Check
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+
+jobs:
+  check-project-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Confirm README exists
+        run: test -f README.md
+
+      - name: Confirm practice log exists
+        run: test -f docs/practice-log.md
